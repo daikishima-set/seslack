@@ -1,0 +1,9 @@
+service: seslack
+runtime: nodejs12
+
+default_expiration: '30d'
+
+handlers:
+  - url: /.*
+    secure: never
+    script: auto

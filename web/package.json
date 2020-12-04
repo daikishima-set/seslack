@@ -1,0 +1,28 @@
+{
+  "name": "seslack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production next start -p 8080"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "js-sha512": "^0.8.0",
+    "mysql2": "^2.2.5",
+    "next": "10.0.1",
+    "next-auth": "^3.1.0",
+    "node-sass": "^4.14.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "^5.2.0",
+    "socket.io-client": "^3.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.2"
+  }
+}
